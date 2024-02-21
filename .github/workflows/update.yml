@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Install
         run: curl -s https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u > playlist.m3u
-     - name: Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Commit files
         env:
