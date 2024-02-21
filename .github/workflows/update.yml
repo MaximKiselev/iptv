@@ -9,6 +9,8 @@ jobs:
   updater:
     runs-on: ubuntu-latest
     steps:
+      - name: Install2
+        run: touch playlist.m3u
       - name: Install
         run: curl -s https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u > playlist.m3u
       - name: Checkout Repository
