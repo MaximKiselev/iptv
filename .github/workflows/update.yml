@@ -15,7 +15,7 @@ jobs:
     - name: Install
       run:  curl -s https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u > playlist.m3u
     - name: Install 2
-      run: curl -s https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u | grep -A 1 'PervyyTulskiy' | sed 's/tvg-id="PervyyTulskiy.ru"/group-title="Спорт"/' >> playlist.m3u
+      run: curl -s https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u | grep -A 1 'PervyyTulskiy' | sed 's/tvg-id="PervyyTulskiy.ru"/group-title="Общие"/' >> playlist.m3u
     - name: Commit files
       env:
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
