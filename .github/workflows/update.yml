@@ -35,7 +35,7 @@ jobs:
           echo 'No changes'
           exit 0
         fi
-        git commit -m "Auto-update ip ranges"
+        git commit -m "Auto-update"
 
         # push changes
         git push github HEAD:${GITHUB_REF}
