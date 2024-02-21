@@ -12,19 +12,22 @@ jobs:
   updater:
     runs-on: ubuntu-latest
     steps:
-      - name: Install2
-        run: touch playlist.m3u
-      - name: Install
-        run: curl -s https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u > playlist.m3u
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+    - name: Install
+      run: curl -s https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u > playlist.m3u
 
-      - name: Set up Git
-        run: |
-          git config --global user.name "${{ secrets.GITHUB_ACTOR }}"
-          git config --global user.email "${{ secrets.GITHUB_ACTOR }}@users.noreply.github.com"
-  
-      - name: Commit Files
-        run: |
-          git add .
-          git diff-index --quiet HEAD || git commit -m "Auto-commit changes" && git push
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "${{ secrets.GITHUB_ACTOR }}"
+        git config --global user.email "${{ secrets.GITHUB_ACTOR }}@users.noreply.github.com"
+
+    - name: Commit Files
+      run: |
+        git add .
+        git diff-index --quiet HEAD || git commit -m "Auto-commit changes"
+
+    - name: Push Changes
+      run: |
+        git push https://${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
