@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '40 19 * * *'
+  push:
+    branches:
+    - main
 
 jobs:
   updater:
@@ -14,26 +17,14 @@ jobs:
       - name: Install
         run: curl -s https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/LoganetXAll.m3u > playlist.m3u
       - name: Checkout Repository
-        uses: actions/checkout@v3
-      - name: Commit files
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/checkout@v2
+
+      - name: Set up Git
         run: |
-          set -euo pipefail
-
-          git remote add github "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git pull github ${GITHUB_REF} --ff-only
-
-          git config --local user.email "$(git log --format='%ae' --reverse | head -1)"
-          git config --local user.name "$(git log --format='%an' --reverse | head -1)"
-
-          # try commit
+          git config --global user.name "${{ secrets.GITHUB_ACTOR }}"
+          git config --global user.email "${{ secrets.GITHUB_ACTOR }}@users.noreply.github.com"
+  
+      - name: Commit Files
+        run: |
           git add .
-          if [ -z "$(git status --porcelain)" ]; then
-            echo 'No changes'
-            exit 0
-          fi
-          git commit -m "Auto-update"
-
-          # push changes
-          git push github HEAD:${GITHUB_REF}
+          git diff-index --quiet HEAD || git commit -m "Auto-commit changes" && git push
