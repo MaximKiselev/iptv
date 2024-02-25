@@ -19,7 +19,7 @@ jobs:
     - name: install 3
       run: echo -e "#EXTINF:-1 tvg-logo=\"https://picon.pp.ua/setanta-sports.png\" group-title=\"Спорт\", Setanta Sports 1\nhttps://bkm.beetv.kz/btv/live/hls/000004498.m3u8\n#EXTINF:-1 tvg-logo=\"https://picon.pp.ua/setanta-sports-plus.png\" group-title=\"Спорт\", Setanta Sports 2\nhttps://bkm.beetv.kz/btv/live/hls/000004499.m3u8" >> playlist.m3u
     - name: install 4
-      run:  [ "$(date +%s%3N)" -gt "$(curl -s https://github.com/MaximKiselev/iptv/blob/main/playlist.m3u | grep -oP '(?<=expires/).*?(?=/)')"] && curl -s --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" https://ok.ru/videoembed/977507065564 | grep -oP '(?<=hlsMasterPlaylistUrl\\&quot;:\\&quot;)https://.*?video\.m3u8' | sed 's/^/#EXTINF:-1 group-title="Общие",Первый Тульский\n#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/121.0.0.0 Safari\/537.36\n/' >> playlist.m3u || echo 2
+      run: "$(date +%s%3N)" -gt "$(curl -s https://github.com/MaximKiselev/iptv/blob/main/playlist.m3u | grep -oP '(?<=expires/).*?(?=/)')"] && curl -s --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" https://ok.ru/videoembed/977507065564 | grep -oP '(?<=hlsMasterPlaylistUrl\\&quot;:\\&quot;)https://.*?video\.m3u8' | sed 's/^/#EXTINF:-1 group-title="Общие",Первый Тульский\n#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/121.0.0.0 Safari\/537.36\n/' >> playlist.m3u || echo 2
     - name: Commit files
       env:
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
