@@ -18,7 +18,16 @@ jobs:
       run: curl -s https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u | grep -A 1 'PervyyTulskiy' | sed 's/tvg-id="PervyyTulskiy.ru"/group-title="Общие"/' >> playlist.m3u
     - name: install 3
       run: echo -e "#EXTINF:-1 tvg-logo=\"https://picon.pp.ua/setanta-sports.png\" group-title=\"Спорт\", Setanta Sports 1\nhttps://bkm.beetv.kz/btv/live/hls/000004498.m3u8\n#EXTINF:-1 tvg-logo=\"https://picon.pp.ua/setanta-sports-plus.png\" group-title=\"Спорт\", Setanta Sports 2\nhttps://bkm.beetv.kz/btv/live/hls/000004499.m3u8" >> playlist.m3u
-   
+    - name: install 4
+      run: |
+          EXPIRATION=$(curl -s https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u | grep -oP '(?<=expires/).*?(?=/)')
+          CURRENT_TIMESTAMP=$(date +%s%3N)
+      
+          if [ "$CURRENT_TIMESTAMP" -gt "$EXPIRATION" ]; then
+            curl -s --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" https://ok.ru/videoembed/977507065564 | grep -oP '(?<=hlsMasterPlaylistUrl\\&quot;:\\&quot;)https://.*?video\.m3u8' | sed 's/^/#EXTINF:-1 group-title="Общие",Первый Тульский\n#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/121.0.0.0 Safari\/537.36\n/' >> playlist.m3u
+          else 
+            echo "Playlist not updated as it is not expired yet."
+          fi   
     - name: Commit files
       env:
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
