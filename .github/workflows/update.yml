@@ -24,7 +24,12 @@ jobs:
           CURRENT_TIMESTAMP=$(date +%s%3N)
       
           if [ "$CURRENT_TIMESTAMP" -gt "$EXPIRATION" ]; then
-            curl -s --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" https://ok.ru/videoembed/977507065564 | grep -oP '(?<=hlsMasterPlaylistUrl\\&quot;:\\&quot;)https://.*?video\.m3u8' | sed 's/^/#EXTINF:-1 group-title="Общие",Первый Тульский\n#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/121.0.0.0 Safari\/537.36\n/' >> playlist.m3u
+            STREAM_URL=$(curl -s --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" https://ok.ru/videoembed/977507065564 | grep -oP '(?<=hlsMasterPlaylistUrl\\&quot;:\\&quot;)https://.*?video\.m3u8')
+             if [ "$(echo "$STREAM_URL" | wc -c)" -gt 10 ]; then
+               echo "$STREAM_URL" | sed 's/^/#EXTINF:-1 group-title="Общие",Первый Тульский\n#EXTVLCOPT:http-user-agent=Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/121.0.0.0 Safari\/537.36\n/' >> playlist.m3u
+             else
+               echo "Playlist is too short, not adding to the file."
+             fi
           else 
             echo "Playlist not updated as it is not expired yet."
           fi   
