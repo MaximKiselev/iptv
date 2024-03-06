@@ -593,8 +593,6 @@ http://strm.yandex.ru/kal/english_class_belarus/english_class_belarus0.m3u8
 http://94.232.104.237:8000/play/083/index.m3u8
 #EXTINF:-1 group-title="Познавательные" tvg-id="galaxy-tv", Galaxy HD
 https://strm.yandex.ru/kal/tainy_galaktiki_belarus/tainy_galaktiki_belarus0.m3u8
-#EXTINF:-1 group-title="Познавательные", H2
-http://176.222.190.11/btv/SWM/History2HD/History2HD.m3u8
 #EXTINF:-1 group-title="Познавательные", H2 HD
 https://bkm.beetv.kz/btv/live/hls/000002722.m3u8
 #EXTINF:-1 group-title="Познавательные", HDL
@@ -665,6 +663,8 @@ https://strm.yandex.ru/kal/mir24/mir240.m3u8
 http://212.22.76.51:83/Moskva_24/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Новости", Москва. Доверие
 https://player.smotrim.ru/iframe/stream/live_id/61125
+#EXTINF:-1 group-title="Новости", ОТВ Екатеринбург HD
+https://vd.obltv.ru/watch/air_hd.m3u8
 #EXTINF:-1 group-title="Новости", РБК 
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia-24" group-title="Новости", Россия 24 (Архив)
@@ -951,4 +951,4 @@ https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd142.mycdn.me/hls/485900290780.m3u8/sig/aDKkZpy0k28/expires/1709694943059/srcIp/20.55.214.180/urls/185.226.53.65/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd112.mycdn.me/hls/485900290780.m3u8/sig/hpq5Xx8CJ_I/expires/1709784942623/srcIp/52.225.76.190/urls/45.136.20.34/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
