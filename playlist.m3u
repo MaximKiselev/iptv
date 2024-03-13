@@ -93,7 +93,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
 #EXTINF:-1 group-title="Общие", Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8 
 #EXTINF:-1 group-title="Общие", ТНВ Татарстан
-http://user91229.clients-cdnnow.ru/hls/user91229_1_720/index.m3u8
+http://levshanov.tlkf.ru:8080/tv/24tv.php?id=113
 #EXTINF:-1 group-title="Общие", ТНВ Планета
 http://planeta.mediacdn.ru/cdn/tnvplanet/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общие", БСТ
@@ -125,15 +125,19 @@ http://83.234.207.29:8008/play/a01y/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Индийское кино 
 http://45.11.139.43:8081/stream/jimi/hls/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Индия
-http://94.232.104.237:8000/play/097/index.m3u8
+http://83.234.207.29:8003/play/a014/index.m3u8
 #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы", Кинеко
 http://176.113.48.221:8986/115
+#EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы", Кинеко HD
+https://bkm.beetv.kz/btv/live/hls/000008136.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8 
 #EXTINF:-1 group-title="Кино и сериалы", Kino24
 https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Кино ТВ
-http://91.142.158.107:8092/play/28/index.m3u8
+http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Кино ТВ HD 
+http://83.234.207.29:8013/play/a00m/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Кинокомедия
 http://91.205.199.3:80/komedia/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киномикс
@@ -141,7 +145,7 @@ https://strm.yandex.ru/kal/kinomiks_belarus/kinomiks_belarus0.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киномикс HD
 http://176.113.48.221:8986/67
 #EXTINF:-1 group-title="Кино и сериалы", Кинопоказ
-http://94.232.104.237:8000/play/047/index.m3u8
+http://178.163.37.154:4022/udp/234.0.0.209:2000
 #EXTINF:-1 group-title="Кино и сериалы", Кинопремьера
 http://otv.wotom.net:4433/udp/238.1.1.19:1234
 #EXTINF:-1 group-title="Кино и сериалы", Кинопремьера HD
@@ -203,9 +207,9 @@ http://195.9.195.3:8080/hls/202127.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Феникс Плюс Кино
 http://188.113.190.15/24/mono.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", A1 HD
-http://185.37.150.40:8092/Amedia1/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000710.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", A2 HD
-http://185.37.150.40:8092/Amedia2/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000351.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Amedia Hit HD
 http://otv.wotom.net:4433/udp/238.1.1.96:1234
 #EXTINF:-1 group-title="Кино и сериалы", Amedia Premium HD 
@@ -230,8 +234,6 @@ http://92.242.110.52:9835/udp/238.1.7.6:1234
 http://188.113.190.15/207/mono.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", FilmUADrama
 https://bkm.beetv.kz/btv/live/hls/000003028.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", FilmZone
-http://89.254.128.5:22280/film_zone/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Flix Snip
 http://92.242.110.52:9835/udp/238.1.8.38:1234
 #EXTINF:-1 group-title="Кино и сериалы", Fox HD
@@ -267,18 +269,22 @@ https://strm.yandex.ru/kal/tv_21_belarus/tv_21_belarus0.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", VHSка
 http://strm.yandex.ru/kal/vhs_ka/vhs_ka0.m3u8
-#EXTINF:-1 group-title="Кино и сериалы", Viasat Kino Action
-http://89.254.128.5:22280/viasat_kino_action/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viasat Kino Comedy
 http://88.135.128.20:7272/5RqMvVnGzdoBQbf
 #EXTINF:-1 group-title="Кино и сериалы", Viju TV1000 
-http://94.232.104.237:8000/play/039/index.m3u8
+http://91.205.199.3/tv1000/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Viju TV1000 HD
+https://bkm.beetv.kz/btv/live/hls/000003747.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viju TV1000 Action
-http://94.232.104.237:8000/play/040/index.m3u8
+http://91.205.199.3/tv1000action/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Viju TV1000 Action HD 
+https://bkm.beetv.kz/btv/live/hls/000003910.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viju TV1000 Русское кино
-http://94.232.104.237:8000/play/041/index.m3u8
+http://83.234.207.29:8011/play/a005/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Viju TV1000 Русское кино HD 
+https://bkm.beetv.kz/btv/live/hls/000003748.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Premiere HD
-http://94.232.104.237:8000/play/076/index.m3u8 
+http://83.234.207.29:8013/play/a00f/index.m3u8 
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Megahit HD
 http://92.242.110.52:9835/udp/238.1.3.7:1234
 #EXTINF:-1 group-title="Кино и сериалы", Viju+ Comedy HD
