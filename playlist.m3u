@@ -879,6 +879,8 @@ https://strm.yandex.ru/kal/khl_belarus/khl_belarus0.m3u8
 https://strm.yandex.ru/kal/khl_prime_belarus/khl_prime_belarus0.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="m1global", MMA-TV
 https://strm.yandex.ru/kal/mma_tv_belarus/mma_tv_belarus0.m3u8
+#EXTINF:-1 group-title="Спорт", Q Arena
+http://otv.wotom.net:4433/udp/238.1.1.142:1234
 #EXTINF:-1 tvg-id="qsport-kz" group-title="Спорт", Q Sport
 http://88.135.128.20:7272/ipKJnd6cVw1Nu7a 
 #EXTINF:-1 group-title="Спорт", Q League
@@ -896,6 +898,8 @@ https://kinescope.io/otaALtprAjbbfBJpXQep9p/master.m3u8
 https://bkm.beetv.kz/btv/live/hls/000002649.m3u8
 #EXTINF:-1 group-title="Спорт", Setanta Sports Ukraine
 http://serv7.iptv11.com/SetantaSportsHD-ua/video.m3u8
+#EXTINF:-1 group-title="Спорт", Sport+ Qazaqstan
+http://87.76.32.36:9106/udp/238.1.1.204:1234
 #EXTINF:-1 group-title="Спорт", Viju+ Sport HD
 https://bkm.beetv.kz/btv/live/hls/000000135.m3u8
 
@@ -987,4 +991,4 @@ https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd142.mycdn.me/hls/485900290780.m3u8/sig/w3PDzASeALM/expires/1710577027226/srcIp/52.234.26.81/urls/45.136.22.63/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd128.mycdn.me/hls/485900290780.m3u8/sig/O4cuVyWnBXc/expires/1710666724928/srcIp/20.75.95.110/urls/185.226.53.65/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
