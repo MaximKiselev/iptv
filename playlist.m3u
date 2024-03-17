@@ -120,6 +120,8 @@ http://109.248.236.21:4433/udp/238.1.1.176:1234
 http://188.113.190.15/233/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Дорама HD
 https://bkm.beetv.kz/btv/live/hls/000003392.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Душевное
+http://serv7.iptv11.com/246/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Еврокино
 http://188.113.190.15/49/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Иллюзион+
@@ -128,6 +130,8 @@ http://otv.wotom.net:4433/udp/238.1.1.104:1234
 http://45.11.139.43:8081/stream/jimi/hls/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Индия
 http://83.234.207.29:8003/play/a014/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы", Камеди 
+http://serv7.iptv11.com/255/video.m3u8
 #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы", Кинеко
 http://176.113.48.221:8986/115
 #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы", Кинеко HD
@@ -437,7 +441,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer 
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные", СТС HD
-http://31.131.136.4:8001/play/e001
+http://serv7.iptv11.com/STSHD/video.m3u8
 #EXTINF:-1 group-title="Развлекательные", СТС International
 http://ott-cdn.ucom.am/s52/04.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-id="sts-love", СТС Love (Архив)
