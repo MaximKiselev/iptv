@@ -161,9 +161,9 @@ https://strm.yandex.ru/kal/kinoman_belarus/kinoman_belarus0.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киносвидание
 http://91.205.199.3/kinosvidanie/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киносемья 
-http://otv.wotom.net:4433/udp/238.1.1.52:1234 
+http://83.234.207.29:8003/play/a01a/index.m3u8 
 #EXTINF:-1 group-title="Кино и сериалы", Киносемья HD
-http://91.205.199.3:80/kinosemyahd/index.m3u8
+http://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киносерия
 http://188.113.190.15/312/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы", Киноужас
@@ -354,7 +354,7 @@ http://92.242.110.52:9835/udp/238.1.5.4:1234
 #EXTINF:-1 group-title="Детские" tvg-id="malysh", СуперГерои
 http://83.234.207.29:8003/play/a01f/index.m3u8
 #EXTINF:-1 group-title="Детские", Уникум 
-http://85.114.169.66:4022/udp/232.0.2.49:1234
+http://188.113.190.15/41/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Детские", Чижик
 http://strm.yandex.ru/kal/chizhik/chizhik0.m3u8
 #EXTINF:-1 group-title="Детские", Ani
@@ -386,7 +386,7 @@ http://149.5.17.34:20041/play/a05s
 
 
 #EXTINF:-1 group-title="Развлекательные", 2x2
- http://178.163.104.252:4022/udp/234.0.0.244:2000
+ http://178.163.51.39:4022/udp/234.0.0.244:2000
 #EXTINF:-1 group-title="Развлекательные", 2x2 HD
 https://livetv.mylifeisgood.net.ru/channels/2x2.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="2na2" group-title="Развлекательные", 2х2 (Архив)
@@ -406,10 +406,6 @@ http://cdn-01.bonus-tv.ru:80/Kaleidoskop_edge/tracks-v1a1/mono.m3u8
 https://strm.yandex.ru/kal/kvn_tv_belarus/kvn_tv_belarus0.m3u8
 #EXTINF:-1 group-title="Развлекательные", Ключ
 http://91.205.199.7:8000/play/a0sj
-#EXTINF:-1 group-title="Развлекательные", Конгресс ТВ   
-http://live-3.otcnet.ru/KongresTV/index.m3u8
-#EXTINF:-1 group-title="Познавательные", ММТВ 
-http://levshanov.tlkf.ru:8080/tv/24tv.php?id=7013
 #EXTINF:-1 group-title="Развлекательные", НТВ Право 
 https://strm.yandex.ru/kal/ntv_pravo_new/ntv_pravo_new0.m3u8
 #EXTINF:-1 group-title="Развлекательные", Продвижение 
@@ -427,7 +423,7 @@ http://streamer2.fokks.ru:10016/index.m3u8
 #EXTINF:-1  group-title="Развлекательные", Резонанс ТВ
 http://serv25.vintera.tv:8081/1pnk/canal1/chunks.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://static.tildacdn.com/tild6562-6662-4465-b131-306461626536/_.png", Родной канал HD 
-http://n1.slavmir.tv:80/live/slavmir/playlist.m3u8
+https://n1.slavmir.tv/live/slavmir/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные", Сарафан
 http://178.124.179.122:8088/Sarafan/index.m3u8
 #EXTINF:-1  group-title="Развлекательные", Светлое ТВ
@@ -438,8 +434,6 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-id="sts-pl7", СТС +7 (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer 
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
-#EXTINF:-1 group-title="Развлекательные", СТС HD
-http://serv7.iptv11.com/STSHD/video.m3u8
 #EXTINF:-1 group-title="Развлекательные", СТС International
 http://ott-cdn.ucom.am/s52/04.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-id="sts-love", СТС Love (Архив)
@@ -514,8 +508,6 @@ http://cdn-01.bonus-tv.ru:80/tvm_edge/tracks-v1a1/index.m3u8
 https://strm.yandex.ru/kal/365_dnei_tv_belarus/365_dnei_tv_belarus0.m3u8
 #EXTINF:-1 group-title="Познавательные", Арсенал HD
 http://91.221.201.2:7013/play/a009/index.m3u8
-#EXTINF:-1 group-title="Познавательные", Арт
-http://levshanov.tlkf.ru:8080/tv/24tv.php?id=7407
 #EXTINF:-1 group-title="Познавательные", Большая Азия HD
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", В мире животных
@@ -539,7 +531,7 @@ http://109.239.208.82:80/livenaturehd/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Звезда Плюс
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Познавательные", Здоровое ТВ
- http://94.230.128.105:8080/ZdorovoeTV/index.m3u8
+ http://193.201.98.10:5000/c179
 #EXTINF:-1 group-title="Познавательные", История
 http://109.239.208.82:80/history/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Кто есть кто 
@@ -611,8 +603,6 @@ https://bkm.beetv.kz/btv/live/hls/000008052.m3u8
 http://109.248.236.21:4433/udp/238.1.1.112:1234
 #EXTINF:-1 group-title="Познавательные", Da Vinci 
 http://92.242.110.52:9835/udp/238.1.8.45:1234
-#EXTINF:-1 group-title="Познавательные", DocuBox
-http://194.28.155.235:81/udp/225.0.56.8:1234
 #EXTINF:-1 group-title="Познавательные", English Class
 http://strm.yandex.ru/kal/english_class_belarus/english_class_belarus0.m3u8
 #EXTINF:-1 group-title="Познавательные", English Club TV
@@ -633,10 +623,6 @@ http://31.131.136.4:8001/play/e017
 http://88.135.128.20:7272/PK41HvJyzlbR8XZ
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные", Investigation Discovery HD
 http://83.234.207.29:8008/play/a01a/index.m3u8
-#EXTINF:-1 group-title="Познавательные", Museum TV HD
-https://stream1.itv.uz/1451/index.m3u8
-#EXTINF:-1 group-title="Познавательные", MyZen TV HD
-https://stream1.itv.uz/1452/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Nat Geo Wild 
 http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", Nat Geo Wild HD
