@@ -457,7 +457,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные", ТНТ HD
-http://92.242.110.52:9835/udp/238.1.4.4:1234
+http://91.207.114.209:5000/c157
 #EXTINF:-1 group-title="Развлекательные", ТНТ International (Европа)
 https://strm.yandex.ru/kal/tnt_interneshnl_belarus/tnt_interneshnl_belarus0.m3u8 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-id="tnt4", ТНТ4 (Архив)
@@ -645,6 +645,8 @@ http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
 http://92.242.110.52:9835/udp/238.1.9.30:1234
 #EXTINF:-1 group-title="Познавательные", Travel+Adventure
 http://92.242.110.52:9835/udp/238.1.9.13:1234
+#EXTINF:-1 group-title="Познавательные", Travel Channel
+http://91.207.114.209:5000/c149
 #EXTINF:-1 group-title="Познавательные", Travel XP
 http://otv.wotom.net:4433/udp/238.1.1.124:1234
 #EXTINF:-1 group-title="Познавательные", Travel XP HD 
@@ -1007,4 +1009,4 @@ https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd142.mycdn.me/hls/485900290780.m3u8/sig/8inRYz8k-Q4/expires/1711649855163/srcIp/40.76.119.130/urls/45.136.22.63/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd112.mycdn.me/hls/485900290780.m3u8/sig/VPGExzFOuw4/expires/1711739392484/srcIp/20.102.214.35/urls/45.136.20.34/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
