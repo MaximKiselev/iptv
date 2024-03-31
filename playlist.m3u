@@ -24,9 +24,13 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:-1 group-title="Общие", НТВ HD
-http://cdn2.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/rewind-7150.m3u8
 #EXTINF:-1 group-title="Общие" tvg-id="ntv-mir", НТВ-Мир
-http://ott-cdn.ucom.am/s17/04.m3u8 
+http://87.76.32.36:9106/udp/238.1.1.56:1234 
+#EXTINF:-1 group-title="Общие", НТВ Беларусь
+https://strm.yandex.ru/kal/ntv_belarus/ntv_belarus0.m3u8
+#EXTINF:-1 group-title="Общие", НТВ Америка
+http://4.59.210.197:8815/udp/127.0.0.1:6003
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="5kanal-ru", Пятый канал (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
@@ -59,7 +63,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
 #EXTINF:-1 group-title="Общие", РенТВ HD
 http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Общие", РенТВ Int
-http://45.159.74.14:80/RenTv/index.m3u8 
+http://otv.wotom.net:4433/udp/238.1.1.72:1234 
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="domashny" group-title="Общие", Домашний (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
@@ -101,7 +105,7 @@ http://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Кино", .black 
 http://91.205.199.3/black/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино", .red
-http://91.205.199.3:80/red/index.m3u8
+http://188.113.190.15/149/mono.m3u8
 #EXTINF:-1 group-title="Кино", .sci-fi 
 http://188.113.190.15/23/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/main/IMG_20230720_080606.jpg", 312
@@ -836,9 +840,9 @@ http://193.201.98.10:5000/c104
 #EXTINF:-1 group-title="Спорт", Матч! Планета
 https://strm.yandex.ru/kal/match_planeta_belarus/match_planeta_belarus0.m3u8
 #EXTINF:-1 group-title="Спорт", Матч! Премьер
-http://83.234.207.29:8004/play/a014/index.m3u8
+http://otv.wotom.net:4433/udp/238.1.1.14:1234
 #EXTINF:-1 group-title="Спорт", Матч! Премьер HD
-http://92.242.110.52:9835/udp/238.1.2.3:1234
+http://185.37.150.46:8092/Nash_futbol_HD/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Спорт", Матч! Страна
 http://193.201.98.10:5000/c106
 #EXTINF:-1 group-title="Спорт", Матч! Футбол 1 HD 
