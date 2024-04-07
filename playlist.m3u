@@ -238,6 +238,8 @@ https://strm.yandex.ru/kal/bollywood_belarus/bollywood_belarus0.m3u8
 http://88.135.128.20:7272/6B1DxxB8sXUqpZM
 #EXTINF:-1 group-title="Кино", Cinema HD
 https://strm.yandex.ru/kal/cinema_tv_belarus/cinema_tv_belarus0.m3u8
+#EXTINF:-1 group-title="Кино", Cinema UHD
+http://195.191.130.17:8085/udp/127.0.0.1:10799
 #EXTINF:-1 group-title="Кино", Cinema Classic
 https://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1 group-title="Кино", Comedy Central
@@ -370,7 +372,7 @@ http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Детские", Baby Time 
 http://strm.yandex.ru/kal/baby_time/baby_time0.m3u8
 #EXTINF:-1 group-title="Детские", Cartoon Classics
-http://178.163.2.88:4022/udp/234.0.0.238:2000
+http://178.163.37.154:4022/udp/234.0.0.238:2000
 #EXTINF:-1 group-title="Детские", Cartoonito
 https://bkm.beetv.kz/btv/live/hls/000000160.m3u8
 #EXTINF:-1 group-title="Детские", Cartoon Network
@@ -414,6 +416,8 @@ http://cdn-01.bonus-tv.ru:80/Kaleidoskop_edge/tracks-v1a1/mono.m3u8
 https://strm.yandex.ru/kal/kvn_tv_belarus/kvn_tv_belarus0.m3u8
 #EXTINF:-1 group-title="Развлекательные", Конгресс ТВ
 http://31.132.116.144:81/udp/224.200.202.138:1234
+#EXTINF:-1 group-title="Развлекательные", НИК
+https://bkm.beetv.kz/btv/live/hls/000008615.m3u8
 #EXTINF:-1 group-title="Развлекательные", НТВ Право 
 https://strm.yandex.ru/kal/ntv_pravo_new/ntv_pravo_new0.m3u8
 #EXTINF:-1 group-title="Развлекательные", Продвижение 
@@ -515,7 +519,7 @@ http://cdn-01.bonus-tv.ru:80/tvm_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Познавательные", 365 дней ТВ 
 https://strm.yandex.ru/kal/365_dnei_tv_belarus/365_dnei_tv_belarus0.m3u8
 #EXTINF:-1 group-title="Познавательные", Арсенал HD
-http://91.221.201.2:7013/play/a009/index.m3u8
+http://109.239.208.82/arsenal/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Большая Азия HD
 https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", В мире животных
@@ -529,7 +533,7 @@ http://188.113.190.15/29/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Домашние животные 
 http://109.239.208.82/animals/index.m3u8
 #EXTINF:-1 group-title="Познавательные", ЕГЭ 
-http://178.163.2.164:4022/udp/234.0.0.212:2000
+http://178.163.51.39:4022/udp/234.0.0.212:2000
 #EXTINF:-1 group-title="Познавательные", Живая планета
 http://109.239.208.82:80/liveplanet/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Живая природа
@@ -580,7 +584,7 @@ https://strm.yandex.ru/kal/pervyi_kosmicheskiy_belarus/pervyi_kosmicheskiy_belar
 #EXTINF:-1 group-title="Познавательные", Победа
 http://otv.wotom.net:4433/udp/238.1.1.128:1234
 #EXTINF:-1 group-title="Познавательные", Поехали!
-http://91.221.201.2:7013/play/a00b/index.m3u8
+http://195.26.83.96:7022/play/a00z/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Приключения HD
 http://strm.yandex.ru/kal/prikluchenia_belarus/prikluchenia_belarus0.m3u8
 #EXTINF:-1 group-title="Познавательные", Просвещение 
@@ -614,7 +618,9 @@ https://bkm.beetv.kz/btv/live/hls/000008052.m3u8
 #EXTINF:-1 group-title="Познавательные", Curiosity Stream HD
 http://109.248.236.21:4433/udp/238.1.1.112:1234
 #EXTINF:-1 group-title="Познавательные", Da Vinci 
-http://92.242.110.52:9835/udp/238.1.8.45:1234
+http://193.201.98.10:5000/c72
+#EXTINF:-1 group-title="Познавательные", Docubox
+http://188.113.190.15/146/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", English Class
 http://strm.yandex.ru/kal/english_class_belarus/english_class_belarus0.m3u8
 #EXTINF:-1 group-title="Познавательные", English Club TV
@@ -734,7 +740,7 @@ http://91.205.199.3:80/avto24/index.m3u8
 #EXTINF:-1 group-title="Хобби", Авто Плюс
 http://otv.wotom.net:4433/udp/238.1.1.131:1234
 #EXTINF:-1 group-title="Хобби" tvg-id="bobior", Бобëр
-http://178.163.2.88:4022/udp/234.0.0.103:2000
+http://178.212.71.253:8002/play/a00m/index.m3u8
 #EXTINF:-1 group-title="Хобби", Диалоги о рыбалке
 https://strm.yandex.ru/kal/dialogi/dialogi0.m3u8
 #EXTINF:-1 group-title="Хобби", Дикая охота HD 
@@ -745,8 +751,6 @@ https://bkm.beetv.kz/btv/live/hls/000004610.m3u8
 http://92.242.110.52:9835/udp/238.1.6.4:1234
 #EXTINF:-1 group-title="Хобби", Драйв
 http://188.113.190.15/68/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="Хобби", Еда
-http://31.41.100.238:81/udp/225.0.56.89:1234
 #EXTINF:-1 group-title="Хобби", Еда Премиум Международный HD
 https://strm.yandex.ru/kal/eda_premium_int_belarus/eda_premium_int_belarus0.m3u8
 #EXTINF:-1 group-title="Хобби", Живи
@@ -754,7 +758,7 @@ https://strm.yandex.ru/kal/zhivi_belarus/zhivi_belarus0.m3u8
 #EXTINF:-1 group-title="Хобби" tvg-id="zagorodnaya-zhizn", Загородная жизнь HD
 https://strm.yandex.ru/kal/zagorodnaia_zhizn_belarus/zagorodnaia_zhizn_belarus0.m3u8
 #EXTINF:-1 group-title="Хобби", Загородный 
-http://ott-cdn.ucom.am/s31/04.m3u8
+http://87.76.32.36:9106/udp/238.1.1.28:1234
 #EXTINF:-1 group-title="Хобби", Конный мир 
 http://92.242.110.52:9835/udp/238.1.2.8:1234
 #EXTINF:-1 group-title="Хобби", КтоКуда
@@ -841,8 +845,10 @@ http://otv.wotom.net:4433/udp/238.1.1.89:1234
 http://tv.streams.baikal-telecom.net/MatchHD/index.m3u8
 #EXTINF:-1 group-title="Спорт", Матч! Арена
 http://tv.streams.baikal-telecom.net:8080/MatchArena/mpegts
+#EXTINF:-1 group-title="Спорт", Матч! Арена HD
+http://193.201.98.10:5000/c103
 #EXTINF:-1 group-title="Спорт", Матч! Боец
-http://92.242.110.52:9835/udp/238.1.2.7:1234
+http://91.207.114.209:5000/c107
 #EXTINF:-1 group-title="Спорт", Матч! Игра HD
 http://193.201.98.10:5000/c104
 #EXTINF:-1 group-title="Спорт", Матч! Планета
@@ -866,7 +872,7 @@ http://193.201.98.10:5000/c116
 #EXTINF:-1 group-title="Спорт", Матч! Футбол 3 HD
 http://91.207.114.209:5000/c116
 #EXTINF:-1 group-title="Спорт", Мир баскетбола
-http://92.242.110.52:9835/udp/238.1.1.17:1234
+http://83.234.207.29:8004/play/a010/index.m3u8
 #EXTINF:-1 group-title="Спорт", Старт HD
 https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 group-title="Спорт", Старт Триумф HD
@@ -876,7 +882,7 @@ https://strm.yandex.ru/kal/udar/udar0.m3u8
 #EXTINF:-1 group-title="Спорт", Футбол
 https://strm.yandex.ru/kal/futbol_belarus/futbol_belarus0.m3u8
 #EXTINF:-1 group-title="Спорт", Eurosport 1 HD
-http://176.113.48.221:8986/63
+http://91.207.114.209:5000/c153
 #EXTINF:-1 group-title="Спорт", Eurosport 2 HD 
 http://193.201.98.10:5000/c154
 #EXTINF:-1 group-title="Спорт", Extreme Sports
@@ -904,14 +910,16 @@ https://strm.yandex.ru/kal/russkoe_ekstremalnoe_tv_belarus/russkoe_ekstremalnoe_
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Спорт" tvg-id="russian-extreme-uhd", Russian Extreme UHD (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
+#EXTINF:-1 group-title="Спорт", Setanta Sports 1
+https://bkm.beetv.kz/btv/live/hls/000006998.m3u8
 #EXTINF:-1 group-title="Спорт", Setanta Sports 1 HD
-https://kinescope.io/8d7BiRwYs73eSFpTXq4ara/master.m3u8
+https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
+#EXTINF:-1 group-title="Спорт", Setanta Sports 2
+https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Спорт", Setanta Sports 2 HD
-https://kinescope.io/otaALtprAjbbfBJpXQep9p/master.m3u8
+https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
 #EXTINF:-1 group-title="Спорт", Setanta Sports Qazaqstan 
 https://bkm.beetv.kz/btv/live/hls/000002649.m3u8
-#EXTINF:-1 group-title="Спорт", Setanta Sports Ukraine
-http://serv7.iptv11.com/SetantaSportsHD-ua/video.m3u8
 #EXTINF:-1 group-title="Спорт", Sport+ Qazaqstan
 http://87.76.32.36:9106/udp/238.1.1.204:1234
 #EXTINF:-1 group-title="Спорт", Viju+ Sport HD
@@ -960,7 +968,7 @@ https://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Музыка", Bridge TV Шлягер
 https://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
 #EXTINF:-1 tvg-id="classic-music" group-title="Музыка", Classic Music
-http://88.85.172.243:7002/play/a032
+http://95.156.76.230:33001/udp/230.4.34.64:1234
 #EXTINF:-1 tvg-id="clubbing-tv" group-title="Музыка", Clubbing TV 
 https://clubbingtv-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Музыка", Deluxe Dance 
@@ -988,7 +996,7 @@ http://92.242.110.52:9835/udp/238.1.3.4:1234
 #EXTINF:-1 group-title="Музыка", MTV Hits 
 https://tr003.androidtvbox.co.hu/tr3_MTVHits_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Музыка", MTV Live HD
-http://45.5.119.155:8090/play/a0hz/index.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000447.m3u8
 #EXTINF:-1 group-title="Музыка", MTV Poland
 https://cdn-nvm-chicago.lolokoko.tv/MtvPolska.stream/playlist.m3u8
 #EXTINF:-1 group-title="Музыка", MTV 80's
