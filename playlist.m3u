@@ -907,12 +907,10 @@ https://strm.yandex.ru/kal/khl_belarus/khl_belarus0.m3u8
 https://strm.yandex.ru/kal/khl_prime_belarus/khl_prime_belarus0.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="m1global", MMA-TV
 https://strm.yandex.ru/kal/mma_tv_belarus/mma_tv_belarus0.m3u8
-#EXTINF:-1 group-title="Спорт", Q Arena
-http://otv.wotom.net:4433/udp/238.1.1.142:1234
 #EXTINF:-1 tvg-id="qsport-kz" group-title="Спорт", Q Sport
 http://88.135.128.20:7272/ipKJnd6cVw1Nu7a 
 #EXTINF:-1 group-title="Спорт", Q League
-http://87.76.32.36:9106/udp/238.1.1.143:1234 
+https://bkm.beetv.kz/btv/live/hls/000006969.m3u8 
 #EXTINF:-1 group-title="Спорт", Russian Extreme
 https://strm.yandex.ru/kal/russkoe_ekstremalnoe_tv_belarus/russkoe_ekstremalnoe_tv_belarus0.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Спорт" tvg-id="russian-extreme-uhd", Russian Extreme UHD (Архив)
@@ -928,10 +926,20 @@ https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 https://bkm.beetv.kz/btv/live/hls/000006899.m3u8
 #EXTINF:-1 group-title="Спорт", Setanta Sports Qazaqstan 
 https://bkm.beetv.kz/btv/live/hls/000002649.m3u8
-#EXTINF:-1 group-title="Спорт", Sky Sport Golf
+#EXTINF:-1 group-title="Спорт", Sky Sports Action
+https://7pal.short.gy/ssportsat
+#EXTINF:-1 group-title="Спорт", Sky Sports Golf
 https://7pal.short.gy/ssportsgf
-#EXTINF:-1 group-title="Спорт", Sky Sport Premier League
-https://7pal.short.gy/skyspt8nz
+#EXTINF:-1 group-title="Спорт", Sky Sports Premier League
+https://7pal.short.gy/ssportspl
+#EXTINF:-1 group-title="Спорт", Sky Sports F1
+https://7pal.short.gy/ssportsf1
+#EXTINF:-1 group-title="Спорт", Sky Sports Football
+https://7pal.short.gy/ssportsfb
+#EXTINF:-1 group-title="Спорт", Sky Sports Main Event
+https://7pal.short.gy/skspmaine
+#EXTINF:-1 group-title="Спорт", Sky Sports News
+https://7pal.short.gy/ssportsnw
 #EXTINF:-1 group-title="Спорт", Sport+ Qazaqstan
 http://87.76.32.36:9106/udp/238.1.1.204:1234
 #EXTINF:-1 group-title="Спорт", Viju+ Sport HD
@@ -956,7 +964,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
 #EXTINF:-1 group-title="Музыка", Музыка Первого 
 http://109.239.208.82:80/muz1/index.m3u8
 #EXTINF:-1 group-title="Музыка", О2ТВ
-http://otv.wotom.net:4433/udp/238.1.1.17:1234
+http://188.113.190.15/189/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Музыка", Телеканал Радио Страна ФМ
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Музыка", ТНТ Music HD
@@ -1011,16 +1019,12 @@ https://tr003.androidtvbox.co.hu/tr3_MTVHits_SD/index.m3u8?token=test
 https://bkm.beetv.kz/btv/live/hls/000000447.m3u8
 #EXTINF:-1 group-title="Музыка", MTV Poland
 https://cdn-nvm-chicago.lolokoko.tv/MtvPolska.stream/playlist.m3u8
-#EXTINF:-1 group-title="Музыка", MTV 80's
-http://45.5.119.155:8090/play/a0ge/index.m3u8
 #EXTINF:-1 group-title="Музыка", MTV 90's
 https://tr003.androidtvbox.co.hu/tr3_MTVRocks_SD/index.m3u8?token=test
 #EXTINF:-1 group-title="Музыка", MTV 00's
 https://bkm.beetv.kz/btv/live/hls/000000264.m3u8
 #EXTINF:-1 group-title="Музыка", MusicBox Gold 
 https://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
-#EXTINF:-1 group-title="Музыка", Nickmusic  
-https://cdn-nvm-chicago.lolokoko.tv/NickMusic.stream/chunks.m3u8
 #EXTINF:-1 group-title="Музыка", Polsat Music HD
 https://cdn-nvm-chicago.lolokoko.tv/polsatmusic.stream/chunks.m3u8
 #EXTINF:-1 group-title="Музыка", Radio M2O 
