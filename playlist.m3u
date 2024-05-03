@@ -27,9 +27,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/rewind-7150.m3u8
 #EXTINF:-1 group-title="Общие" tvg-id="ntv-mir", НТВ-Мир
 https://st1.uzdigital.tv/NTV_MIR/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Общие", НТВ Беларусь
+#EXTINF:-1 group-title="Общие", НТВ-Беларусь
 https://strm.yandex.ru/kal/ntv_belarus/ntv_belarus0.m3u8
-#EXTINF:-1 group-title="Общие", НТВ Америка
+#EXTINF:-1 group-title="Общие", НТВ-Америка
 http://4.59.210.197:8815/udp/127.0.0.1:6003
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="5kanal-ru", Пятый канал (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
@@ -391,8 +391,6 @@ http://88.135.128.20:7272/DL3JGiEPHMCY4vy
 http://88.135.128.20:7272/Jke5tdvCxp2Yhs6
 #EXTINF:-1 group-title="Детские", Nicktoons
 https://bkm.beetv.kz/btv/live/hls/000004365.m3u8
-#EXTINF:-1 group-title="Детские", Sumiko
-http://89.23.177.102:4022/udp/239.1.11.35:1234
 #EXTINF:-1 group-title="Детские", TiJi
 https://strm.yandex.ru/kal/tiji_belarus/tiji_belarus0.m3u8
 #EXTINF:-1 group-title="Детские", ПлюсПлюс
@@ -950,8 +948,6 @@ https://bkm.beetv.kz/btv/live/hls/000002649.m3u8
 https://7pal.short.gy/ssportsat
 #EXTINF:-1 group-title="Спорт", Sky Sports Golf
 https://7pal.short.gy/ssportsgf
-#EXTINF:-1 group-title="Спорт", Sky Sports Premier League
-https://7pal.short.gy/ssportspl
 #EXTINF:-1 group-title="Спорт", Sky Sports F1
 https://7pal.short.gy/ssportsf1
 #EXTINF:-1 group-title="Спорт", Sky Sports Football
@@ -960,6 +956,10 @@ https://7pal.short.gy/ssportsfb
 https://7pal.short.gy/skspmaine
 #EXTINF:-1 group-title="Спорт", Sky Sports News
 https://7pal.short.gy/ssportsnw
+#EXTINF:-1 group-title="Спорт", Sky Sports Premier League
+https://7pal.short.gy/ssportspl
+#EXTINF:-1 group-title="Спорт", Sky Sports Tennis
+https://7pal.short.gy/ssportstn
 #EXTINF:-1 group-title="Спорт", Sport+ Qazaqstan
 http://87.76.32.36:9106/udp/238.1.1.204:1234
 #EXTINF:-1 group-title="Спорт", TNT Sports 1
