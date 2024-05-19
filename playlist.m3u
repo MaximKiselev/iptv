@@ -942,14 +942,18 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
 http://erlyvideo.beeonline.az/SetantaSports/index.m3u8?token=test
 #EXTINF:-1 group-title="Спорт", Setanta Sports 2 HD
 http://erlyvideo.beeonline.az/SetantaSportPlus/index.m3u8?token=test
-#EXTINF:-1 group-title="Спорт", Setanta Sports Qazaqstan 
-https://bkm.beetv.kz/btv/live/hls/000002649.m3u8
+#EXTINF:-1 group-title="Спорт", Sky Sports 1 NZ
+https://7pal.short.gy/skyspt1nz
+#EXTINF:-1 group-title="Спорт", Sky Sports 2 NZ 
+https://7pal.short.gy/skyspt2nz
+#EXTINF:-1 group-title="Спорт", Sky Sports 3 NZ
+https://7pal.short.gy/skyspt3nz
+#EXTINF:-1 group-title="Спорт", Sky Sports 4 NZ
+https://7pal.short.gy/skyspt4nz
 #EXTINF:-1 group-title="Спорт", Sky Sports Action
 https://7pal.short.gy/ssportsat
 #EXTINF:-1 group-title="Спорт", Sky Sports Golf
 https://7pal.short.gy/ssportsgf
-#EXTINF:-1 group-title="Спорт", Sky Sports F1
-https://7pal.short.gy/ssportsf1
 #EXTINF:-1 group-title="Спорт", Sky Sports Football
 https://7pal.short.gy/ssportsfb
 #EXTINF:-1 group-title="Спорт", Sky Sports Main Event
@@ -958,10 +962,6 @@ https://7pal.short.gy/skspmaine
 https://7pal.short.gy/ssportsnw
 #EXTINF:-1 group-title="Спорт", Sky Sports Premier League
 https://7pal.short.gy/ssportspl
-#EXTINF:-1 group-title="Спорт", Sky Sports Tennis
-https://7pal.short.gy/ssportstn
-#EXTINF:-1 group-title="Спорт", Sport+ Qazaqstan
-http://87.76.32.36:9106/udp/238.1.1.204:1234
 #EXTINF:-1 group-title="Спорт", TNT Sports 1
 https://7pal.short.gy/tntspts1
 #EXTINF:-1 group-title="Спорт", TNT Sports 2
