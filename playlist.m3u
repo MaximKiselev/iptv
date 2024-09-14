@@ -1330,12 +1330,10 @@ https://abr.de1se01.v2beat.live/live/live6/chunks.m3u8
 https://ipv4.bozztv.com/ssh101/ssh101/vivarussia/playlist.m3u8
 #EXTINF:-1 group-title="Музыка", Zerouno TV Music
 https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8
-#EXTINF:-1 group-title="Общие",Первый Тульский (576p) [Not 24/7]
-http://5.164.24.83/tula/1tv_low/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.pp.ua/setanta-sports.png" group-title="Спорт", Setanta Sports 1
 https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 #EXTINF:-1 tvg-logo="https://picon.pp.ua/setanta-sports-plus.png" group-title="Спорт", Setanta Sports 2
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd142.mycdn.me/hls/485900290780.m3u8/sig/8DyhFdRjJZY/expires/1726341203606/srcIp/52.234.38.240/urls/45.136.22.63/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd128.mycdn.me/hls/485900290780.m3u8/sig/WqNNIPuSgGg/expires/1726431531797/srcIp/40.79.247.96/urls/185.226.53.65/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
