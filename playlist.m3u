@@ -235,11 +235,11 @@ http://31.131.136.4:8001/play/e014
 #EXTINF:-1 group-title="Кино", Комедия 
 http://91.142.158.107:8092/play/30/index.m3u8
 #EXTINF:-1 group-title="Кино", Любимое кино 
-http://45.143.108.110:2200/lubimoekino
+http://193.242.204.28:10091/91
 #EXTINF:-1 group-title="Кино", Любимое кино HD
 http://ge-net.duckdns.org:7110/live?channel=19&client=15
 #EXTINF:-1 group-title="Кино", Мир сериала 
-http://45.143.108.110:2200/mirseriala
+http://91.205.199.3/mirseriala/index.m3u8
 #EXTINF:-1 group-title="Кино", Мосфильм. Золотая коллекция 
 http://193.242.190.6:8099/98/index.m3u8
 #EXTINF:-1 group-title="Кино", Мосфильм. Золотая коллекция HD
@@ -343,7 +343,7 @@ http://91.194.191.241:8081/chid439/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино", FAN HD
 http://77.235.1.13/fan/index.m3u8
 #EXTINF:-1 group-title="Кино", FilmBox
-http://45.143.108.110:2200/FilmBOX 
+http://213.169.39.30:5009 
 #EXTINF:-1 group-title="Кино", Film.UA Drama
 http://ge-net.duckdns.org:7110/live?channel=26&client=15
 #EXTINF:-1 group-title="Кино", FlixSnip
@@ -372,6 +372,8 @@ http://193.242.204.28:10082/82
 http://77.235.1.13/planb/index.m3u8
 #EXTINF:-1 group-title="Кино", Romance HD
 http://88.218.242.237:8000/play/a004
+#EXTINF:-1 group-title="Кино", Scream HD
+http://88.218.242.237:8000/play/a00c
 #EXTINF:-1 group-title="Кино", Shot TV
 http://91.207.114.220:9001/play/a032/index.m3u8
 #EXTINF:-1 group-title="Кино", Star Cinema
@@ -428,11 +430,14 @@ http://185.112.140.28:8080/VIPComedy/index.m3u8
 #EXTINF:-1 group-title="Кино", Viju+ Serial HD
 http://77.235.1.13/vip_serial/index.m3u8
 
-
+#EXTINF:-1 group-title="Детские", В гостях у сказки
+http://109.200.130.123:7537/play/a02m
 #EXTINF:-1 group-title="Детские", В гостях у сказки HD
 https://stream2.cinerama.uz/1270/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Детский мир
 http://195.26.83.96:7007/play/14/index.m3u8
+#EXTINF:-1 group-title="Детские", Детское кино
+http://77.235.1.13/detskoe_kino/index.m3u8
 #EXTINF:-1 group-title="Детские", Детское кино International
 https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 group-title="Детские", Капитан Фантастика
@@ -453,8 +458,6 @@ http://109.200.130.123:7537/play/a024
 http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
 #EXTINF:-1 group-title="Детские", Лëва
 http://91.205.199.3/planb/index.m3u8
-#EXTINF:-1 group-title="Детские", Лëва HD
-http://s5.merlive.am/planb/index.m3u8
 #EXTINF:-1 group-title="Детские", Мульт 
 http://185.112.140.28:8080/Mult/index.m3u8
 #EXTINF:-1 group-title="Детские", Мульт HD
@@ -466,17 +469,17 @@ https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
 #EXTINF:-1 group-title="Детские", Мультимузыка
 http://91.142.158.107:8092/play/24/index.m3u8
 #EXTINF:-1 group-title="Детские", О!
-http://31.130.63.173:1011/o!/tracks-v1a1/playlist.m3u8
+http://91.194.191.241:8081/chid405/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Радость моя
 https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Детские", Рыжий 
 https://stream2.cinerama.uz/1407/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Детские", Сказки Зайки
+http://77.235.1.13/skazki_zayki/index.m3u8
 #EXTINF:-1 group-title="Детские", Смайл ТВ
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
-#EXTINF:-1 group-title="Детские", Советские мультфильмы
-http://s83.chas.tv:8081/chas/sovmulttv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Детские", Солнце
-http://185.46.48.18:80/disney/tracks-v1a1/mono.m3u8
+http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?utcstart=${start}&utcend=${end}" group-title="Детские" tvg-id="solnce", Солнце (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
@@ -484,17 +487,17 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer 
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
 #EXTINF:-1 group-title="Детские", СТС Kids
-http://iptv.mega.net.ru:8888/CTC_Kids/mono.m3u8
+http://185.112.140.28:8080/STS_Kids/index.m3u8
 #EXTINF:-1 group-title="Детские", СТС Kids HD
 http://78.62.135.122:8082/STSKidsHD/index.m3u8
 #EXTINF:-1 group-title="Детские" tvg-id="malysh", СуперГерои
 http://178.124.179.122:8088/Malish/index.m3u8
-#EXTINF:-1 group-title="Детские" tvg-id="malysh", СуперГерои HD
-http://77.243.112.149:8080/malish/index.m3u8
 #EXTINF:-1 group-title="Детские", Уникум 
-http://31.130.63.173:1011/unikum/tracks-v1a1/playlist.m3u8
+https://stream2.cinerama.uz/1033/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Ani
 http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigh.m3u8
+#EXTINF:-1 group-title="Детские", Baby Time
+http://212.75.128.233:4022/udp/238.1.1.43:1234
 #EXTINF:-1 group-title="Детские", Cartoon Classics
 http://88.218.242.237:8000/play/a00f
 #EXTINF:-1 group-title="Детские", Cartoonito 
@@ -502,7 +505,7 @@ http://135.181.115.81:8000/play/a01f/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Детские", Cartoonito HD
 http://stream01.vnet.am/Channel_120/mono.m3u8
 #EXTINF:-1 group-title="Детские", Cartoon Network
-http://s5.merlive.am/CartoonNetwork/index.m3u8
+http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Детские", Duck TV
 https://stream1.cinerama.uz/1271/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", FamilyJam HD
@@ -512,17 +515,13 @@ http://91.218.160.212:8015/play/a00d/index.m3u8
 #EXTINF:-1 group-title="Детские", Nickelodeon
 http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Детские", Nickelodeon HD
-http://s5.merlive.am/Nickelodeon/index.m3u8
+http://stream01.vnet.am/Channel_114/mono.m3u8
 #EXTINF:-1 group-title="Детские", Nick Jr.
 rtmp://212.0.213.132//NickJr
-#EXTINF:-1 group-title="Детские", Nick Jr. HD
-http://45.141.76.176/nickjr/playlist.m3u8
 #EXTINF:-1 group-title="Детские", Nicktoons
 http://stream01.vnet.am/Boomerang/mono.m3u8
-#EXTINF:-1 group-title="Детские", Sunset Kids 
-https://stream.sunset-media.ru/Free/Free/4.m3u8
 #EXTINF:-1 group-title="Детские", TiJi
-http://31.130.63.173:1011/tiji/tracks-v1a1/playlist.m3u8
+http://78.62.135.122:8082/tiji/index.m3u8
 
 
 #EXTINF:-1 group-title="Познавательные", 2x2
