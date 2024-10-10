@@ -388,6 +388,8 @@ http://77.235.1.17/start_air/index.m3u8
 http://193.242.204.28:10063/63
 #EXTINF:-1 tvg-id="start-world" group-title="Кино" tvg-id="start-world", Start World
 http://77.235.1.17/start_world/index.m3u8
+#EXTINF:-1 group-title="Кино", Suspense
+http://88.218.242.237:8000/play/a005
 #EXTINF:-1 group-title="Кино", Timeless Dizi Channel 
 http://194.158.222.36:6086
 #EXTINF:-1 group-title="Кино", TV XXI
@@ -529,7 +531,7 @@ https://livetv.mylifeisgood.net.ru/channels/2x2.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="2na2" group-title="Познавательные", 2х2 (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
-#EXTINF:-1 group-title="Познавательные", 360 HD 
+#EXTINF:-1 group-title="Познавательные", 360° HD 
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", 365 дней ТВ 
 http://91.207.115.228:9001/play/a04m/index.m3u8
@@ -789,9 +791,11 @@ rtmp://5.182.229.90//7320
 #EXTINF:-1 group-title="Познавательные", RT Doc 
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Познавательные", RTG TV 
-http://31.130.63.173:1011/rtg_tv/tracks-v1a1/playlist.m3u8
+http://195.26.83.96:7007/play/a00n/index.m3u8
 #EXTINF:-1 group-title="Познавательные", RTG HD
-http://31.130.63.173:1011/rtg_hd/tracks-v1a1/playlist.m3u8
+http://91.205.199.3/rtghd/index.m3u8
+#EXTINF:-1 group-title="Познавательные", RTG Int.
+http://213.169.39.30:5264
 #EXTINF:-1 group-title="Познавательные", RTVi 
 http://45.143.108.110:2203/RTVi
 #EXTINF:-1 group-title="Познавательные", Sunset Space 
@@ -799,9 +803,7 @@ https://stream.sunset-media.ru/Free/Free/3.m3u8
 #EXTINF:-1 group-title="Познавательные", Silkway TV
 https://ikomg-kazakh.akamaized.net/kazakh/kazakh.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные", Terra
-http://iptv.mega.net.ru:8888/National_Geographic/mono.m3u8
-#EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные", Terra HD
-http://31.130.63.173:1011/national_geographic_hd/tracks-v1a1/playlist.m3u8
+http://185.50.148.2:7707/NationalGeographic/index.m3u8
 #EXTINF:-1 group-title="Познавательные", The Explorers
 http://88.218.242.237:8000/play/a00m
 #EXTINF:-1 group-title="Познавательные", TLC 
@@ -816,8 +818,8 @@ http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
 http://cdn-01.bonus-tv.ru:80/tvm_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Trace Sport Stars
 https://stream2.cinerama.uz/1274/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Познавательные", Travel+Adventure
-http://188.113.190.15/106/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Travel+Adventure HD
+http://77.235.1.17/travel_adventure/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Travel Channel HD
 http://91.207.115.228:12000/play/a041 
 #EXTINF:-1 group-title="Познавательные", Viju Nature
@@ -825,15 +827,17 @@ http://185.50.148.2:7703/ViasatNature/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Viju Nature HD
 http://91.205.199.3/viasatnature/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Viju History
-http://185.112.140.28:8080/ViasatHistory/index.m3u8
+http://185.50.148.2:7703/ViasatHistory/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Viju Explore
 http://185.50.148.2:7703/ViasatExplorer/index.m3u8
+#EXTINF:-1 group-title="Познавательные", Viju+ Planet HD
+http://31.131.136.4:8001/play/e006
 #EXTINF:-1 group-title="Познавательные", Zooпарк
-http://31.130.63.173:1011/zoopark/tracks-v1a1/playlist.m3u8
+http://91.205.199.3/zoopark/index.m3u8
 
 
-#EXTINF:-1 group-title="Новости", 360 Новости
-https://strm.yandex.ru/kal/360news/360news0.m3u8
+#EXTINF:-1 group-title="Новости", 360° Новости HD
+http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Новости", Беларусь 24
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1008231497_b5160000_sleng.m3u8
 #EXTINF:-1 group-title="Новости", Восток 24
@@ -846,14 +850,16 @@ http://hls-rictv.cdnvideo.ru/rictv/rictv-srt-stream/playlist.m3u8
 #EXTINF:-1 group-title="Новости", Кубань 24
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8
-#EXTINF:-1 group-title="Новости", Мир 24 
-https://strm.yandex.ru/kal/mir24/mir240.m3u8
+#EXTINF:-1 group-title="Новости", Мир 24 HD
+http://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Новости", Москва 24
 http://31.210.208.171:8080/moskva_24/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Новости", Москва. Доверие
 https://player.smotrim.ru/iframe/stream/live_id/61125
 #EXTINF:-1 group-title="Новости", ОТВ Екатеринбург HD
 https://vd.obltv.ru/watch/air_hd.m3u8
+#EXTINF:-1 group-title="Новости", Первый информационный
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
 #EXTINF:-1 group-title="Новости", РБК 
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="rossia-24" group-title="Новости", Россия 24 (Архив)
