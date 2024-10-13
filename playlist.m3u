@@ -190,8 +190,6 @@ http://77.235.1.17/kinosezon/index.m3u8
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино", Кино ТВ +4
 http://live-3.otcnet.ru/kinotvplus4/index.m3u8
-#EXTINF:-1 group-title="Кино", Кино ТВ +7
-http://live-3.otcnet.ru/kinotvplus7/index.m3u8
 #EXTINF:-1 group-title="Кино", Кино ТВ HD 
 http://91.205.199.3/kinotvhd/index.m3u8
 #EXTINF:-1 group-title="Кино", Кино ТВ HD +7
@@ -469,7 +467,7 @@ https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
 #EXTINF:-1 group-title="Детские", Мультимузыка
 http://91.142.158.107:8092/play/24/index.m3u8
 #EXTINF:-1 group-title="Детские", О!
-http://91.194.191.241:8081/chid405/tracks-v1a1/mono.m3u8
+http://185.223.125.136:1984/play/O!/index.m3u8
 #EXTINF:-1 group-title="Детские", Радость моя
 https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Детские", Рыжий 
@@ -511,7 +509,7 @@ https://stream1.cinerama.uz/1271/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", FamilyJam HD
 http://88.218.242.237:8000/play/a00b
 #EXTINF:-1 group-title="Детские", Gulli Girl
-http://91.218.160.212:8015/play/a00d/index.m3u8
+http://78.62.135.122:8082/gulli/index.m3u8
 #EXTINF:-1 group-title="Детские", Nickelodeon
 http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Детские", Nickelodeon HD
