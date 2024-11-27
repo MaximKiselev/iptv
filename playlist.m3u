@@ -144,8 +144,6 @@ http://iptv-hls.idc.md:8200/hls/2/live1.m3u8
 http://185.50.148.2:7703/Sony_Turbo/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/Red.png", .red
 http://31.210.208.171:8080/set/index.m3u8?token=+W2MSER
-#EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/Red.png", .red HD
-http://5.134.87.10:8000/play/a07v/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/Sci-Fi.png", .sci-fi 
 http://130.193.73.10:8937/play/a02q
 #EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/312.png", 312
@@ -154,10 +152,8 @@ http://176.126.166.43:1935/live/312musik/playlist.m3u8
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/Videocassette.png", Видеокассета
 https://132544.edgevideo.ru/streams/132544_806129/playlist.m3u8
-#EXTINF:-1 group-title="Кино", День Победы HD
-http://91.194.191.241:8081/chid168/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/Home-Movie.png", Дом кино
-https://streaming.goodstream.cyou/live/44.m3u8
+http://93.189.224.246:52900/play/a00z/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/Home-Movie-Premium.png", Дом кино Премиум
 http://stream02.vnet.am/THT/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="http://loganet.ru/images/channels/Movie/Home-Movie-Premium-HD.png", Дом кино Премиум HD
@@ -165,7 +161,7 @@ http://77.235.1.17/dom_kino_premium/index.m3u8
 #EXTINF:-1 group-title="Кино", Дорама
 https://stream2.cinerama.uz/1273/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино", Душевное
-http://77.235.1.17/nash_kinoroman_hd/index.m3u8
+http://193.242.190.6:8099/37/index.m3u8
 #EXTINF:-1 group-title="Кино", Еврокино
 http://86.57.198.251:8181/play/1022/index.m3u8
 #EXTINF:-1 group-title="Кино", Иллюзион+
@@ -1251,4 +1247,4 @@ https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd153.okcdn.ru/hls/485900290780.m3u8/sig/twHbAEhtW00/expires/1732720792295/srcIp/20.97.191.245/urls/185.226.55.74/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd246.okcdn.ru/hls/485900290780.m3u8/sig/ADfPycIA66U/expires/1732810987493/srcIp/172.183.77.201/urls/185.226.52.94/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
