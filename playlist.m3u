@@ -55,19 +55,9 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="kultura-pl7" group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Russia-K.png", Россия К +7 (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Russia-K-HD.png", Россия К HD 
-https://player.smotrim.ru/iframe/stream/live_id/19201
-#EXTINF:-1 tvg-id="kultura-pl2" group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Russia-K-HD.png", Россия К HD +2 
-https://player.smotrim.ru/iframe/stream/live_id/60881
-#EXTINF:-1 tvg-id="kultura-pl4" group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Russia-K-HD.png", Россия К HD +4
-https://player.smotrim.ru/iframe/stream/live_id/60882
-#EXTINF:-1 tvg-id="kultura-pl7" group-title="Общие" tvg-logo="http://loganet.ru/images/channels/Russia-K-HD.png", Россия К HD +7
-https://player.smotrim.ru/iframe/stream/live_id/60883
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="otr" tvg-logo="http://loganet.ru/images/channels/OTR.png", ОТР (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="http://loganet.ru/images/channels/OTR.png", ОТР +2
-http://94.230.240.17:8080/otp/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие" tvg-id="tvcentr" tvg-logo="http://loganet.ru/images/channels/TV-Centre.png", ТВ Центр (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
@@ -367,8 +357,6 @@ http://109.200.130.123:7537/play/a02k
 http://live.admuspeh.my/8966/index.m3u8?token=test
 #EXTINF:-1 group-title="Кино", Romance HD
 http://88.218.242.237:8000/play/a004
-#EXTINF:-1 group-title="Кино", Saga TV
-http://46.175.123.164:4022/udp/239.195.65.56:1234
 #EXTINF:-1 group-title="Кино", Scream HD
 http://88.218.242.237:8000/play/a00c
 #EXTINF:-1 group-title="Кино", Shot TV
@@ -767,8 +755,6 @@ http://195.26.83.96:7007/play/a00j/index.m3u8
 https://stream2.cinerama.uz/1222/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", History
 http://65.21.85.175:8000/play/a01s/index.m3u8?token=livetv
-#EXTINF:-1 group-title="Познавательные", Home HD
-http://hls3.ttv2.space/home_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные", Investigation Discovery 
 http://stream01.vnet.am/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные", Investigation Discovery HD
@@ -1262,6 +1248,17 @@ https://abr.de1se01.v2beat.live/live/live6/chunks.m3u8
 https://132544.edgevideo.ru/streams/132544_713325/1325441080/index.m3u8
 #EXTINF:-1 group-title="Музыка", Zerouno TV Music
 https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8
+
+#EXTINF:-1 group-title="Релакс", Релакс
+http://185.57.68.33/232/mpegts
+#EXTINF:-1 group-title="Релакс", Home 4k
+http://hls3.ttv2.space/home_hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Релакс", Loupe
+https://d2dw21aq0j0l5c.cloudfront.net/playlist_1920x1080.m3u8
+#EXTINF:-1 group-title="Релакс", Loupe 4k
+https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
+#EXTINF:-1 group-title="Релакс", Quadro 4k
+http://live.admuspeh.my/8681/video.m3u8?token=test
 #EXTINF:-1 tvg-logo="https://picon.pp.ua/setanta-sports.png" group-title="Спорт", Setanta Sports 1
 https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 #EXTINF:-1 tvg-logo="https://picon.pp.ua/setanta-sports-plus.png" group-title="Спорт", Setanta Sports 2
