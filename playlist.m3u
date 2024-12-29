@@ -1148,6 +1148,10 @@ rtmp://5.182.229.90//7310
 http://178.219.128.68:64889/POLSSPORNEWSHD
 #EXTINF:-1 group-title="Спорт", Polsat Sport Fight 🔇
 rtmp://5.182.229.90//7311
+#EXTINF:-1 group-title="Спорт", Polsat Sport Premium 1 Super HD
+rtmp://5.182.229.90//7304
+#EXTINF:-1 group-title="Спорт", Polsat Sport Premium 2 Super HD
+rtmp://5.182.229.90//7305
 #EXTINF:-1 group-title="Спорт", TNT Sport 1
 https://7pal.short.gy/tntspts1
 #EXTINF:-1 group-title="Спорт", TNT Sport 2
@@ -1264,4 +1268,4 @@ https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd158.okcdn.ru/hls/485900290780.m3u8/sig/Shs7xeO_b1g/expires/1735470757325/srcIp/172.190.111.229/urls/185.226.55.74/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd246.okcdn.ru/hls/485900290780.m3u8/sig/HBQa0h-aWYw/expires/1735557170645/srcIp/52.160.165.128/urls/45.136.20.60/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
