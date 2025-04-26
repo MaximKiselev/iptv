@@ -329,8 +329,6 @@ http://109.200.130.123:7537/play/a02m
 http://195.26.83.96:7007/play/14/index.m3u8
 #EXTINF:-1 group-title="Детские", Детское кино International
 https://v2.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1 group-title="Детские", Капитан Фантастика HD
-http://5.166.64.254:81/udp/225.0.56.41:1234
 #EXTINF:-1 group-title="Детские", Карусель
 https://streaming.televizor-24-tochka.ru/live/232.m3u8
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Детские" tvg-id="karusel", Карусель (Архив)
@@ -345,8 +343,6 @@ https://cdn2.skygo.mn/live/disk1/Karusel/HLS-FTA/Karusel.m3u8
 http://109.200.130.123:7537/play/a024
 #EXTINF:-1 group-title="Детские", Кнопка ТВ 
 http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
-#EXTINF:-1 group-title="Детские", Лëва
-http://5.166.64.254:81/udp/225.0.55.98:1234
 #EXTINF:-1 group-title="Детские", Мама
 http://stv.mediacdn.ru/live/cdn/mama/playlist_sdhigher.m3u8
 #EXTINF:-1 group-title="Детские", Мамонтëнок ТВ
@@ -357,8 +353,6 @@ http://stv.mediacdn.ru/live/cdn/mult/playlist_sdhigh.m3u8
 http://stv.mediacdn.ru/live/cdn/mult/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Детские", Мультиландия
 http://130.193.73.10:8937/play/a00z
-#EXTINF:-1 group-title="Детские", Мультиландия HD
-http://5.166.64.254:81/udp/225.0.55.95:1234
 #EXTINF:-1 group-title="Детские", Мультимания LV 
 http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Мультимузыка
@@ -394,23 +388,17 @@ http://shayan.bonus-tv.ru:80/cdn/shayan/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские", Ani
 http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Детские", Baby Time
-http://31.173.165.29:8000/play/a028/index.m3u8
+http://31.130.16.62:4022/udp/239.1.12.25:1234
 #EXTINF:-1 group-title="Детские", Cartoonito
 http://135.181.115.81:8000/play/a04e/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Детские", Cartoon Classics
-http://31.173.165.29:8000/play/a03s/index.m3u8
+http://31.130.16.62:4022/udp/239.1.10.21:1234
 #EXTINF:-1 group-title="Детские", Cartoon Network
 http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
-#EXTINF:-1 group-title="Детские", Duck TV
-http://5.166.64.254:81/udp/225.0.55.19:1234
 #EXTINF:-1 group-title="Детские", Fox Kids
 http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 #EXTINF:-1 group-title="Детские", Gulli Girl
 http://130.193.73.10:8937/play/a00v
-#EXTINF:-1 group-title="Детские", JimJam
-http://91.146.94.234:10000/play/a061
-#EXTINF:-1 group-title="Детские", Kids TV HD
-http://origin5.mediacdn.ru/live/kidstv/index.m3u8
 #EXTINF:-1 group-title="Детские", Nickelodeon
 http://135.181.115.81:8000/play/a03x/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Детские", Nickelodeon HD
@@ -434,7 +422,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 group-title="Познавательные", 360° HD 
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные", 365 дней ТВ 
-http://s3.merlive.am/roos-365-dnej/manifest.m3u8
+http://178.212.71.253:8000/play/67/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Арсенал
 http://ott-cdn.ucom.am/s68/04.m3u8
 #EXTINF:-1 group-title="Познавательные", Арсенал HD
@@ -456,7 +444,7 @@ http://130.193.73.10:8937/play/a01m
 #EXTINF:-1 group-title="Познавательные", Живая природа
 http://178.212.71.253:8002/play/a00o/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Живая природа HD 
-http://91.205.199.3/jivayaprirodahd/index.m3u8
+http://178.212.71.253:8000/play/79/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Зал суда HD 
 http://95.156.76.230:33001/udp/230.4.34.6:1234
 #EXTINF:-1 group-title="Познавательные", Звезда Плюс
@@ -468,9 +456,9 @@ http://31.148.48.15/Zoo_TV/index.m3u8
 #EXTINF:-1 group-title="Познавательные", История
 http://109.200.130.123:7537/play/a025
 #EXTINF:-1 group-title="Познавательные", Калейдоскоп ТВ
-http://cdn-01.bonus-tv.ru:80/Kaleidoskop_edge/tracks-v1a1/mono.m3u8
+http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные", КВН ТВ
-http://91.205.199.3/kvntv/index.m3u8
+http://31.210.208.171:8080/kvn/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Познавательные", Конгресс ТВ
 http://live-3.otcnet.ru/congresstv/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Кто есть кто 
@@ -504,8 +492,6 @@ http://cdn.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8
 http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Первый космический
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=HD_Eureka
-#EXTINF:-1 group-title="Познавательные", Перший Автомобільный UA
-http://141.95.55.143/CH1849/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Перец
 rtmp://212.0.213.132//Teledom
 #EXTINF:-1 group-title="Познавательные", Победа
@@ -587,7 +573,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
 #EXTINF:-1 group-title="Познавательные", ТНТ
 https://streaming.goodstream.cyou/live/38.m3u8
 #EXTINF:-1 group-title="Познавательные", ТНТ HD
-http://s3.merlive.am/tnthd/index.m3u8
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=tnt_hd
 #EXTINF:-1 group-title="Познавательные", ТНТ International (Европа)
 http://85.187.13.40:18000/tntint
 #EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Познавательные" tvg-id="tnt4", ТНТ4 (Архив)
@@ -632,8 +618,6 @@ http://109.200.130.123:7537/play/a02j
 http://130.193.73.10:8937/play/a014
 #EXTINF:-1 group-title="Познавательные", Discovery
 http://65.21.85.175:8000/play/a02u/index.m3u8?token=livetv
-#EXTINF:-1 group-title="Познавательные", Discovery HD
-http://91.146.94.234:10000/play/a041 
 #EXTINF:-1 group-title="Познавательные", English Class
 http://141.95.55.143/CH4039/index.m3u8
 #EXTINF:-1 group-title="Познавательные", Galaxy TV
@@ -647,7 +631,7 @@ http://135.181.115.81:8000/play/a03v/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Познавательные", National Geographic
 http://135.181.115.81:8000/play/a03w/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Познавательные", RT Doc 
-https://hls.rt.com/hls/rtdru.m3u8
+http://tv.streams.baikal-telecom.net:8080/RTD_HD/mpegts
 #EXTINF:-1 group-title="Познавательные", RTG TV 
 http://195.26.83.96:7007/play/a00n/index.m3u8
 #EXTINF:-1 group-title="Познавательные", RTG HD
@@ -660,8 +644,6 @@ https://stream.sunset-media.org:443/AfBrazXsUK/J9hGT3vYuv/3.m3u8
 https://ikomg-kazakh.akamaized.net/kazakh/kazakh.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные", Terra
 http://109.200.130.123:7537/play/a02i
-#EXTINF:-1 group-title="Познавательные", TLC
-http://91.146.94.234:10000/play/a05k
 #EXTINF:-1 group-title="Познавательные", TLC HD
 rtmp://212.0.213.132//TLC
 #EXTINF:-1 group-title="Познавательные", Top Secret
@@ -669,7 +651,7 @@ http://178.124.152.238:8088/sovsec
 #EXTINF:-1 group-title="Познавательные", TV Brics 
 http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Познавательные", TVM Channel 
-http://cdn-01.bonus-tv.ru:80/tvm_edge/tracks-v1a1/index.m3u8
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=TVMChannel
 #EXTINF:-1 group-title="Познавательные", Trace Sport Stars
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные", Travel+Adventure
@@ -679,9 +661,9 @@ http://213.91.178.133:8000/play/a03r
 #EXTINF:-1 group-title="Познавательные", Viju Nature
 http://130.193.73.10:8937/play/a01k
 #EXTINF:-1 group-title="Познавательные", Viju History
-http://188.190.222.53/Viasat_History/index.m3u8
+http://31.130.16.62:4022/udp/239.1.12.23:1234
 #EXTINF:-1 group-title="Познавательные", Viju Explore
-http://s3.merlive.am/viasatexplorer/index.m3u8
+http://130.193.73.10:8937/play/a01j
 #EXTINF:-1 group-title="Познавательные", Viju+ Planet
 http://130.193.73.10:8937/play/a01l
 #EXTINF:-1 group-title="Познавательные", Zooпарк
@@ -741,7 +723,7 @@ https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTINF:-1 group-title="Политические", БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
 #EXTINF:-1 group-title="Политические", Вместе-РФ 
-http://cdn-01.bonus-tv.ru:80/vmesterf/tracks-v1a1/mono.m3u8
+https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Политические", Дума ТВ 
 https://dumatv.iptv2022.com/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="Политические", Красная линия 
@@ -760,10 +742,6 @@ http://31.148.48.15/Avto_Plus/index.m3u8
 http://195.18.23.20:8000/play/1/index.m3u8
 #EXTINF:-1 group-title="Хобби", Диалоги о рыбалке
 http://130.193.73.10:8937/play/a04q
-#EXTINF:-1 group-title="Хобби", Дикая охота HD 
-http://s3.merlive.am/dikayaoxotahd/index.m3u8
-#EXTINF:-1 group-title="Хобби", Дикая рыбалка
-http://s3.merlive.am/dikayaribalkahd/index.m3u8
 #EXTINF:-1 group-title="Хобби", Дикая рыбалка HD
 http://130.193.73.10:8937/play/a04p
 #EXTINF:-1 group-title="Хобби", Дикий 
@@ -1084,8 +1062,6 @@ http://hls3.ttv2.space/home_hd/tracks-v1a1/mono.m3u8
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_1920x1080.m3u8
 #EXTINF:-1 group-title="Релакс", Loupe 4k
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
-#EXTINF:-1 group-title="Релакс", Quadro 4k
-http://cdn.admuspeh.my/8681/video.m3u8?token=test
 #EXTINF:-1 tvg-logo="https://picon.pp.ua/setanta-sports.png" group-title="Спорт", Setanta Sports 1
 https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 #EXTINF:-1 tvg-logo="https://picon.pp.ua/setanta-sports-plus.png" group-title="Спорт", Setanta Sports 2
