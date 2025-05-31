@@ -1173,3 +1173,6 @@ https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
 https://vsd158.okcdn.ru/hls/485900290780.m3u8/sig/_ukNi7C1Nf8/expires/1748762253177/srcIp/52.191.72.140/urls/45.136.20.60/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+#EXTM3U
+#EXTINF:-1 tvg-id="vijuTV1000action.ru" tvg-name="viju TV1000 action" tvg-logo="https://i.imgur.com/TMmyuzh.png" group-title="movies",viju TV1000 action
+http://65.21.85.175:8000/play/a012/index.m3u8?token=livetv
