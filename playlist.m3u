@@ -259,6 +259,8 @@ http://31.148.48.15/Russkiy_Roman_HD/index.m3u8
 http://31.133.36.244:8000/85
 #EXTINF:-1 group-title="Кино", Сапфир HD
 http://31.133.36.244:8000/86
+#EXTINF:-1 group-title="Кино", Синема HD
+http://178.124.152.238:8088/cinema
 #EXTINF:-1 group-title="Кино", Сити Эдем — Киноазия
 https://autopilot.catcast.tv/content/34393/index.m3u8?password=promolive
 #EXTINF:-1 group-title="Кино", Сити Эдем — Кинодок
@@ -303,8 +305,6 @@ http://77.235.1.19:8000/play/a04d/index.m3u8
 http://catchup.videoline.ru/cinema/index.m3u8
 #EXTINF:-1 group-title="Кино", Cinema HD
 http://77.235.1.19:8000/play/a01d/index.m3u8
-#EXTINF:-1 group-title="Кино", Cinema Космос TV
-http://178.124.152.238:8088/cinema
 #EXTINF:-1 group-title="Кино", FAN 
 http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="Кино", FAN HD
@@ -1119,9 +1119,9 @@ http://178.217.72.66:8080/Rusong_TV/tracks-v1a1/mono.m3u8
 http://178.212.71.253:8000/play/142/index.m3u8
 #EXTINF:-1 group-title="Музыка", Bridge Этно
 http://tvip.btk.teleos.ru:8081/chid520/index.m3u8
-#EXTINF:-1 group-title="Музыка", CHD TV Rock HD
+#EXTINF:-1 group-title="Музыка", CHD Rock HD
 http://194.26.229.213/chdtv_rock/index.m3u8
-#EXTINF:-1 group-title="Музыка", CHD TV RU Rock HD
+#EXTINF:-1 group-title="Музыка", CHD RU Rock HD
 http://194.26.229.213/chdtv_ru_rock/index.m3u8
 #EXTINF:-1 group-title="Музыка", Deluxe Dance 
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
@@ -1184,4 +1184,4 @@ https://bkm.beetv.kz/btv/live/hls/000004498.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004499.m3u8
 #EXTINF:-1 group-title="Общие",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-https://vsd246.okcdn.ru/hls/485900290780.m3u8/sig/pwbvI-jY4FM/expires/1753719883693/srcIp/4.246.134.177/urls/45.136.20.60/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
+https://vsd246.okcdn.ru/hls/485900290780.m3u8/sig/ROdXY-twK64/expires/1753806498111/srcIp/52.159.247.196/urls/185.226.52.94/clientType/0/srcAg/CHROME/mid/977507065564/video.m3u8
