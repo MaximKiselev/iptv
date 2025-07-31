@@ -317,6 +317,30 @@ http://77.235.1.19:8000/play/a05f/index.m3u8
 http://195.18.23.20:8000/play/3/index.m3u8
 #EXTINF:-1 group-title="Кино", Amedia Premium HD 
 http://178.217.72.66:8080/Amedia_Premium_HD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Action HD
+http://178.217.72.66:8080/BCUActionHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Catastrophe HD
+http://178.217.72.66:8080/BCUCatastropheHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Cinema HD
+http://178.217.72.66:8080/BCUCinemaHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Comedy HD
+http://178.217.72.66:8080/BCUComedyHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Fantastic HD
+http://178.217.72.66:8080/BCUFantasticHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU FilMystic HD
+http://178.217.72.66:8080/BCUFilMysticHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU History HD
+http://178.217.72.66:8080/BCUHistoryHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Kinorating HD
+http://178.217.72.66:8080/BCUKinoratingHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Premiere HD
+http://178.217.72.66:8080/BCUPremiereHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Romantic HD
+http://178.217.72.66:8080/BCURomanticHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU Stars HD
+http://178.217.72.66:8080/BCUStarsHD/index.m3u8
+#EXTINF:-1 group-title="Кино", BCU VHS HD
+http://178.217.72.66:8080/BCUVHSHD/index.m3u8
 #EXTINF:-1 group-title="Кино", Bollywood
 http://178.217.72.66:8080/Bollywood_HD/index.m3u8
 #EXTINF:-1 group-title="Кино", Bollywood HD
@@ -327,6 +351,22 @@ http://77.235.1.19:8000/play/a04d/index.m3u8
 http://catchup.videoline.ru/cinema/index.m3u8
 #EXTINF:-1 group-title="Кино", Cinema HD
 http://77.235.1.19:8000/play/a01d/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman HD
+http://178.217.72.66:8080/CineMan/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman Action HD
+http://178.217.72.66:8080/CineMan_Action/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman Marvel HD
+http://178.217.72.66:8080/CineMan_Marvel/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman Top HD
+http://178.217.72.66:8080/CineMan_Top/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman VHS HD
+http://178.217.72.66:8080/CineMan_VHS/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman Комедия HD
+http://178.217.72.66:8080/CineMan_Comedy/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman Мелодрама HD
+http://178.217.72.66:8080/CineMan_Melodrama/index.m3u8
+#EXTINF:-1 group-title="Кино", Cineman Триллер HD
+http://178.217.72.66:8080/CineMan_Thriller/index.m3u8
 #EXTINF:-1 group-title="Кино", Comedy Central
 http://185.26.157.3:8080/live/paramount_comedy/mono.m3u8
 #EXTINF:-1 group-title="Кино", DetectiveJam HD
@@ -365,6 +405,10 @@ http://158.160.149.81:8080/8327/index.m3u8
 http://77.235.1.19:8000/play/a04z/index.m3u8
 #EXTINF:-1 group-title="Кино", Plan_B HD
 http://31.133.36.244:8000/90
+#EXTINF:-1 group-title="Кино", Red Premium
+http://95.85.109.219:7000/play/a06e
+#EXTINF:-1 group-title="Кино", Red Thriller
+http://95.85.109.219:7000/play/a06h
 #EXTINF:-1 group-title="Кино", Romance
 http://77.235.1.19:8000/play/a050/index.m3u8
 #EXTINF:-1 group-title="Кино", Saga TV
