@@ -836,7 +836,7 @@ http://45.159.74.22/NatGeoWild/tracks-v1a1/mono.m3u8
 http://178.217.72.66:8080/Nat_Geo_Wild/index.m3u8
 #EXTINF:-1 group-title="Познавательные", One Planet 🛡️
 http://95.67.12.82:9088
-#EXTINF:-1 group-title="Познавательные", RT Doc 
+#EXTINF:-1 group-title="Познавательные", RTД HD
 http://tv.streams.baikal-telecom.net:8080/RTD_HD/mpegts
 #EXTINF:-1 group-title="Познавательные", RTG TV 
 http://195.26.83.96:7007/play/a00n/index.m3u8
@@ -934,6 +934,8 @@ https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 http://190.11.225.124:5000/live/cnn_hd/playlist.m3u8
 #EXTINF:-1 group-title="Новости", Deutsche Welle
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
+#EXTINF:-1 group-title="Новости", Euronews
+http://81.198.190.9:7878/96/video.m3u8
 #EXTINF:-1 group-title="Новости" tvg-id="russia-today", RT English HD
 https://rt-glb.rttv.com/dvr/rtnews/playlist_1600Kb.m3u8
 #EXTINF:-1 group-title="Новости" tvg-logo="https://1000marken.net/wp-content/uploads/2021/01/Sky-News-Logo-2048x1152.png", Sky News
