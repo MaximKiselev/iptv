@@ -951,6 +951,10 @@ http://origin5.mediacdn.ru/live/brics/index.m3u8
 http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Знания", Top Secret
 http://178.124.152.238:8088/sovsec
+#EXTINF:-1 group-title="Знания", Univer
+http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Знания", Univer HD
+http://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 group-title="Знания", Viasat Nature
 http://87.246.54.249:8085/ViasatNature/index.m3u8
 #EXTINF:-1 group-title="Знания", Viasat Nature HD
@@ -1019,14 +1023,6 @@ https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 http://87.118.142.91:6060/play/a044
 #EXTINF:-1 group-title="Новости" tvg-id="russia-today", RT English HD
 https://rt-glb.rttv.com/dvr/rtnews/playlist_1600Kb.m3u8
-
-
-
-
-
-
-
-
 
 #EXTINF:-1 group-title="Хобби", Авто 24
 http://178.124.152.238:8088/auto24
@@ -1330,7 +1326,7 @@ https://7pal.short.gy/tntspts4
 http://37.186.120.3:8000/play/a06x/index.m3u8
 #EXTINF:-1 group-title="Спорт", Udar HD
 http://95.85.109.219:7000/play/a066
-#EXTINF:-1 group-title="Спорт", Viju+ Sport
+#EXTINF:-1 group-title="Спорт", viju+ Sport
 http://178.134.1.158:8081/viasatsport/index.m3u8
 
 #EXTINF:-1 group-title="Музыка", 1HD Music
