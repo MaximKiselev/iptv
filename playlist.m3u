@@ -1,8 +1,12 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG,https://api.catcast.tv/api/timetable/epg.xml?channel_ids=40783"
+#EXTINF:-1 group-title="Общие", Ссылка на плейлист устарела
+https://loganettv.vercel.app/all.m3u
+#EXTINF:-1 group-title="Общие", Новая ссылка https://loganettv.vercel.app/all.m3u
+https://loganettv.vercel.app/all.m3u
 #EXTINF:-1 group-title="Общие", Telegram-канал
-https://t.me/loganet2
+https://t.me/loganettv_original
 #EXTINF:-1 group-title="Общие", Telegram-чат
-https://t.me/loganet2support
+https://t.me/loganettv_support
 #EXTINF:-1 group-title="Общие", Telegram-резерв
 https://t.me/iptvbackup
 #EXTINF:-1 group-title="Общие", Первый канал
